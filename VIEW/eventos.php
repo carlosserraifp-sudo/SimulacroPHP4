@@ -195,7 +195,7 @@ $eventos = $eventController->index();
             <div class="eventos-disponibles__grid">
                 <?php
                 // Display free events from the database
-                $freeEvents = $eventController->index();
+                $freeEvents = $eventController->indexfree();
 
                 if (!empty($freeEvents)) {
                     $count = 0;
